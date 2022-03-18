@@ -1,8 +1,10 @@
 using System; 
 
-class URI {
+class URI 
+{
 
-    static void Main(string[] args) { 
+    static void Main(string[] args) 
+    { 
 
        double n = 3.14159;
        double raio = Convert.ToDouble(Console.ReadLine());
@@ -12,5 +14,4 @@ class URI {
        Console.WriteLine($"A={area:0.0000}");
 
     }
-
 }
