@@ -8,7 +8,9 @@ class URI
         
         int A = Int32.Parse(Console.ReadLine());
         int B = Int32.Parse(Console.ReadLine());
+        
         int X = A + B;
+        
         Console.WriteLine($"X = {X}");
         
     }
