@@ -1,0 +1,26 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+
+        string[] line1 = System.Console.ReadLine().Split(' ');
+        int codigoPeca1 = Int32.Parse(line1[0]);
+        int quantidadePeca1 = Int32.Parse(line1[1]);
+        double valorUnitarioPeca1 = Convert.ToDouble(line1[2]);
+
+        string[] line2 = System.Console.ReadLine().Split(' ');
+        int codigoPeca2 = Int32.Parse(line2[0]);
+        int quantidadePeca2 = Int32.Parse(line2[1]);
+        double valorUnitarioPeca2 = Convert.ToDouble(line2[2]);
+
+        double valorTotalPeca1 = quantidadePeca1 * valorUnitarioPeca1;
+        double valorTotalPeca2 = quantidadePeca2 * valorUnitarioPeca2;
+        double valorTotalCompra = valorTotalPeca1 + valorTotalPeca2;
+
+        Console.WriteLine($"VALOR A PAGAR: R$ {valorTotalCompra:0.00}");
+    
+    }
+}
