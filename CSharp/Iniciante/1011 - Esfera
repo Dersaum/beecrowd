@@ -1,0 +1,17 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+
+        double pi = 3.14159;
+        int R = Int32.Parse(Console.ReadLine());
+
+        double VOLUME = (4 / 3.0) * pi * Math.Pow(R, 3);
+
+        Console.WriteLine($"VOLUME = {VOLUME:0.000}");
+    
+    }
+}
