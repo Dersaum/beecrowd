@@ -1,0 +1,36 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        string[] line1 = Console.ReadLine().Split(' ');
+        int A = Int32.Parse(line1[0]);
+        int B = Int32.Parse(line1[1]);
+        int C = Int32.Parse(line1[2]);
+
+        double maiorAB = ( A + B + Math.Abs( A - B )) / 2;
+        double maiorAC = ( A + C + Math.Abs( A - C )) / 2;
+        double maiorBC = ( B + C + Math.Abs( B - C )) / 2;
+
+        if ( maiorAB == A && maiorAC == A )
+        {
+            
+            Console.WriteLine($"{A} eh o maior");
+        }
+        
+        else if ( maiorAB == B && maiorBC == B )
+        {
+
+            Console.WriteLine($"{B} eh o maior");
+        }
+        
+        else
+        {
+
+            Console.WriteLine($"{C} eh o maior");
+        }
+    }
+}
