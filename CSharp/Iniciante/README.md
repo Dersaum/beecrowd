@@ -2,6 +2,7 @@
 ## [Desafios 1000 até 1037](https://www.beecrowd.com.br/judge/pt/problems/index/1)
 
 
+
 ## [1000 - Hello World!](https://www.beecrowd.com.br/judge/pt/problems/view/1000)
 
 O seu primeiro programa em qualquer linguagem de programação normalmente é o "Hello World!". Neste primeiro problema tudo o que você precisa fazer é imprimir esta mensagem na tela.
@@ -11,6 +12,7 @@ Este problema não possui nenhuma entrada.
 
 ### Saída
 Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha, conforme o exemplo abaixo.
+
 
 
 ## [1001 - Extremamente Básico](https://www.beecrowd.com.br/judge/pt/problems/view/1001)
@@ -58,6 +60,7 @@ O arquivo de entrada contém 2 valores inteiros.
 Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
 
+
 ## [1005 - Média 1](https://www.beecrowd.com.br/judge/pt/problems/view/1005)
 Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
@@ -68,13 +71,91 @@ O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
+
+## [1006 - Média 2](https://www.beecrowd.com.br/judge/pt/problems/view/1006)
+Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
+
+### Entrada
+O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão (double).
+
+### Saída
+Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+
+
+
+## [1007 - Diferença](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
+Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+
+### Entrada
+O arquivo de entrada contém 4 valores inteiros.
+
+### Saída
+Imprima a mensagem DIFERENCA com todas as letras maiúsculas, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade.
+
+
+
+## [1008 - Salário](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
+Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
+
+### Entrada
+O arquivo de entrada contém 2 números inteiros e 1 número com duas casas decimais, representando o número, quantidade de horas trabalhadas e o valor que o funcionário recebe por hora trabalhada, respectivamente.
+
+### Saída
+Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
+
+
+
+## [1009 - Salário com Bônus](https://www.beecrowd.com.br/judge/pt/problems/view/1009)
+Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
+
+### Entrada
+O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de dupla precisão (double) com duas casas decimais, representando o salário fixo do vendedor e montante total das vendas efetuadas por este vendedor, respectivamente.
+
+### Saída
+Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
+
+
+
+## [1010 - Cálculo Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1010)
+Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
+
+### Entrada
+O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valores, respectivamente dois inteiros e um valor com 2 casas decimais.
+
+### Saída
+A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos e um espaço após o "R$". O valor deverá ser apresentado com 2 casas após o ponto.
+
+
+
+## [1011 - Esfera](https://www.beecrowd.com.br/judge/pt/problems/view/1011)
+Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). A fórmula para calcular o volume é: (4/3) * pi * R3. Considere (atribua) para pi o valor 3.14159.
+
+Dica: Ao utilizar a fórmula, procure usar (4/3.0) ou (4.0/3), pois algumas linguagens (dentre elas o C++), assumem que o resultado da divisão entre dois inteiros é outro inteiro.
+
+### Entrada
+O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), correspondente ao raio da esfera.
+
+### Saída
+A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
+
+
+
+## [1012 - Área](https://www.beecrowd.com.br/judge/pt/problems/view/1012)
+Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:<br>
+a) a área do triângulo retângulo que tem A por base e C por altura.<br>
+b) a área do círculo de raio C. (pi = 3.14159)<br>
+c) a área do trapézio que tem A e B por bases e C por altura.<br>
+d) a área do quadrado que tem lado B.<br>
+e) a área do retângulo que tem lados A e B.
+
+### Entrada
+O arquivo de entrada contém três valores com um dígito após o ponto decimal.
+
+### Saída
+O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
+
+
+
 ## []()
 ## []()
 ## []()
