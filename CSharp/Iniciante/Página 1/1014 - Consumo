@@ -1,0 +1,16 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        int distancia = Int32.Parse(Console.ReadLine());
+        double totalCombustivel = Convert.ToDouble(Console.ReadLine());
+
+        double consumo = distancia / totalCombustivel;
+
+        Console.WriteLine($"{consumo:0.000} km/l");
+    }
+}
