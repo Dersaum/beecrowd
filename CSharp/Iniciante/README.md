@@ -156,7 +156,21 @@ O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a u
 
 
 
-## []()
+## [1013 - O Maior](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
+Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:
+
+![image](https://user-images.githubusercontent.com/86378481/159137380-10d87e9e-021f-480d-a346-e7bdb6a8749b.png)
+
+
+Obs.: a fórmula apenas calcula o maior entre os dois primeiros (a e b). Um segundo passo, portanto é necessário para chegar no resultado esperado.
+
+### Entrada
+O arquivo de entrada contém três valores inteiros.
+
+### Saída
+Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
+
+
 ## []()
 ## []()
 ## []()
