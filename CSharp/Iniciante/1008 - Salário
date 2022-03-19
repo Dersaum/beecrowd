@@ -1,0 +1,18 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int funcionario = Int32.Parse(Console.ReadLine());
+        int horasTrabalhadas = Int32.Parse(Console.ReadLine());
+        double valorHora = Convert.ToDouble(Console.ReadLine());
+
+        double salario = horasTrabalhadas * valorHora;
+        
+        Console.WriteLine($"NUMBER = {funcionario}{Environment.NewLine}SALARY = U$ {salario:0.00}");
+        
+    }
+}
