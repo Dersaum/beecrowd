@@ -1,0 +1,18 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+
+        double A = Convert.ToDouble(Console.ReadLine());
+        double B = Convert.ToDouble(Console.ReadLine());
+        double C = Convert.ToDouble(Console.ReadLine());
+        
+        double MEDIA = (( 2 * A ) + ( 3 * B ) + ( 5 * C )) / 10;
+        
+        Console.WriteLine($"MEDIA = {MEDIA:0.0}");
+        
+    }
+}
