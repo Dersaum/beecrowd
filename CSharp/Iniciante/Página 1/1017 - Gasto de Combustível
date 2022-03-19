@@ -1,0 +1,18 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        double consumoPorKM = 12;
+
+        double tempo = Convert.ToDouble(Console.ReadLine());
+        double velocidadeMedia = Convert.ToDouble(Console.ReadLine());
+
+        double quantidadeLitros = ( velocidadeMedia * tempo ) / consumoPorKM;
+
+        Console.WriteLine($"{quantidadeLitros:0.000}");
+    }
+}
