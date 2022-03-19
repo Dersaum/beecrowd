@@ -159,7 +159,7 @@ O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a u
 ## [1013 - O Maior](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
 Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:
 
-![image](https://user-images.githubusercontent.com/86378481/159137380-10d87e9e-021f-480d-a346-e7bdb6a8749b.png)
+<img src="https://user-images.githubusercontent.com/86378481/159137380-10d87e9e-021f-480d-a346-e7bdb6a8749b.png" width="250">
 
 
 Obs.: a fórmula apenas calcula o maior entre os dois primeiros (a e b). Um segundo passo, portanto é necessário para chegar no resultado esperado.
@@ -183,7 +183,19 @@ Apresente o valor que representa o consumo médio do automóvel com 3 casas apó
 
 
 
-## []()
+## [1015 - Distância Entre Dois Pontos](https://www.beecrowd.com.br/judge/pt/problems/view/1015)
+Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula:
+
+Distancia = <img src="https://user-images.githubusercontent.com/86378481/159138136-e6ae8bf0-d80e-42bf-833c-2fe8c7606aab.png" width="250">
+
+### Entrada
+O arquivo de entrada contém duas linhas de dados. A primeira linha contém dois valores de ponto flutuante: x1 y1 e a segunda linha contém dois valores de ponto flutuante x2 y2.
+
+### Saída
+Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
+
+
+
 ## []()
 ## []()
 ## []()
