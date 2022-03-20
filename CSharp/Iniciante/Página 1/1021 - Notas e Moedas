@@ -1,0 +1,95 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        double N = Convert.ToDouble(Console.ReadLine());
+        
+        int n100 = 0;
+        int n50 = 0;
+        int n20 = 0;
+        int n10 = 0;
+        int n5 = 0;
+        int n2 = 0;
+
+        int m100 = 0;
+        int m50 = 0;
+        int m25 = 0;
+        int m10 = 0;
+        int m5 = 0;
+        double m1 = 0;
+
+        while ( N - 100 >= 0 )
+        {
+            n100++;
+            N = N - 100;
+        }
+
+        while ( N - 50 >= 0)
+        {
+            n50++;
+            N = N - 50;
+        }
+
+        while ( N - 20 >= 0)
+        {
+            n20++;
+            N = N - 20;
+        }
+
+        while ( N - 10 >= 0)
+        {
+            n10++;
+            N = N - 10;
+        }
+
+        while ( N - 5 >= 0)
+        {
+            n5++;
+            N = N - 5;
+        }
+
+        while ( N - 2 >= 0)
+        {
+            n2++;
+            N = N - 2;
+        }
+
+        while ( N - 1 >= 0)
+        {
+            m100++;
+            N = N - 1;
+        }
+
+        while ( N - 0.5 >= 0)
+        {
+            m50++;
+            N = N - 0.5;
+        }
+
+        while ( N - 0.25 >= 0)
+        {
+            m25++;
+            N = N - 0.25;
+        }
+
+        while ( N - 0.1 >= 0)
+        {
+            m10++;
+            N = N - 0.1;
+        }
+
+        while ( N - 0.05 >= 0)
+        {
+            m5++;
+            N = N - 0.05;
+        }
+
+        m1 = Math.Round(N * 100);
+
+        Console.WriteLine($"NOTAS:\n{n100} nota(s) de R$ 100.00\n{n50} nota(s) de R$ 50.00\n{n20} nota(s) de R$ 20.00\n{n10} nota(s) de R$ 10.00\n{n5} nota(s) de R$ 5.00\n{n2} nota(s) de R$ 2.00\nMOEDAS:\n{m100} moeda(s) de R$ 1.00\n{m50} moeda(s) de R$ 0.50\n{m25} moeda(s) de R$ 0.25\n{m10} moeda(s) de R$ 0.10\n{m5} moeda(s) de R$ 0.05\n{m1} moeda(s) de R$ 0.01");
+    }
+}
