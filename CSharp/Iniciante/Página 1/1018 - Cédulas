@@ -1,0 +1,64 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        int N = Int32.Parse(Console.ReadLine());
+        int N1 = N;
+        
+        int n100 = 0;
+        int n50 = 0;
+        int n20 = 0;
+        int n10 = 0;
+        int n5 = 0;
+        int n2 = 0;
+        int n1 = 0;
+
+        while ( N - 100 >= 0 )
+        {
+            n100++;
+            N = N - 100;
+        }
+
+
+        while ( N - 50 >= 0)
+        {
+            n50++;
+            N = N - 50;
+        }
+
+
+        while ( N - 20 >= 0)
+        {
+            n20++;
+            N = N - 20;
+        }
+
+        while ( N - 10 >= 0)
+        {
+            n10++;
+            N = N - 10;
+        }
+
+
+        while ( N - 5 >= 0)
+        {
+            n5++;
+            N = N - 5;
+        }
+
+        while ( N - 2 >= 0)
+        {
+            n2++;
+            N = N - 2;
+        }
+
+        n1 = N;
+        
+        System.Console.WriteLine($"{N1}\n{n100} nota(s) de R$ 100,00\n{n50} nota(s) de R$ 50,00\n{n20} nota(s) de R$ 20,00\n{n10} nota(s) de R$ 10,00\n{n5} nota(s) de R$ 5,00\n{n2} nota(s) de R$ 2,00\n{n1} nota(s) de R$ 1,00");
+
+    }
+}
