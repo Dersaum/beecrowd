@@ -1,0 +1,32 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        string[] valores = System.Console.ReadLine().Split(' ');
+
+        double A = Convert.ToDouble(valores[0]);
+        double B = Convert.ToDouble(valores[1]);
+        double C = Convert.ToDouble(valores[2]);
+
+        double B2 = Math.Pow(B, 2);
+        double AC = 4 * A * C;
+        double delta = Math.Sqrt(B2 - AC);
+
+        if ( A == 0 || B2 < AC )
+        {
+            Console.WriteLine("Impossivel calcular");
+        }
+
+        else
+        {
+            double R1 =  (- B + delta) / ( 2 * A );
+            double R2 =  (- B - delta) / ( 2 * A );
+
+            Console.WriteLine($"R1 = {R1:0.00000}\nR2 = {R2:0.00000}");
+        }  
+    }   
+}
