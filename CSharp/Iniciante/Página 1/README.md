@@ -266,18 +266,36 @@ Obs: Utilize ponto (.) para separar a parte decimal.
 
 
 
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
+## [1035 - Teste de Seleção 1](https://www.beecrowd.com.br/judge/pt/runs/code/26850876)
+Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem "Valores aceitos", senão escrever "Valores nao aceitos".
+
+### Entrada
+Quatro números inteiros A, B, C e D.
+
+### Saída
+Mostre a respectiva mensagem após a validação dos valores.
+
+
+
+## [1036 - Fórmula de Bhaskara](https://www.beecrowd.com.br/judge/pt/problems/view/1036)
+Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo.
+
+#### Entrada
+Leia três valores de ponto flutuante (double) A, B e C.
+
+### Saída
+Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impossivel calcular". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.
+
+## [1037 - Intervalo](https://www.beecrowd.com.br/judge/pt/problems/view/1037)
+Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos seguintes intervalos ([0,25], (25,50], (50,75], (75,100]) este valor se encontra. Obviamente se o valor não estiver em nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.
+
+O símbolo ( representa "maior que". Por exemplo:
+[0,25]  indica valores entre 0 e 25.0000, inclusive eles.
+(25,50] indica valores maiores que 25 Ex: 25.00001 até o valor 50.0000000
+
+### Entrada
+O arquivo de entrada contém um número com ponto flutuante qualquer.
+
+### Saída
+A saída deve ser uma mensagem conforme exemplo abaixo.
 
