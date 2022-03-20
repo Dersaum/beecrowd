@@ -1,0 +1,32 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        int N = Int32.Parse(Console.ReadLine());
+
+        int nH = 0;
+        int nM = 0;
+        int nS = 0;
+
+        while ( N - 3600 >= 0 )
+        {
+            nH++;
+            N = N - 3600;
+        }
+
+        while ( N - 60 >= 0)
+        {
+            nM++;
+            N = N - 60;
+        }
+
+        nS = N;
+        
+        System.Console.WriteLine($"{nH}:{nM}:{nS}");
+
+    }
+}
