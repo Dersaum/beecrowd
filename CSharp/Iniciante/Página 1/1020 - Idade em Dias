@@ -1,0 +1,32 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        int N = Int32.Parse(Console.ReadLine());
+
+        int nA = 0;
+        int nM = 0;
+        int nD = 0;
+
+        while ( N - 365 >= 0 )
+        {
+            nA++;
+            N = N - 365;
+        }
+
+        while ( N - 30 >= 0)
+        {
+            nM++;
+            N = N - 30;
+        }
+
+        nD = N;
+        
+        Console.WriteLine($"{nA} ano(s)\n{nM} mes(es)\n{nD} dia(s)");
+
+    }
+}
