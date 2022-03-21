@@ -1,1 +1,21 @@
-sssss
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        string[] pedido = Console.ReadLine().Split(' ');
+        int a = Int32.Parse(pedido[0]);
+        int b = Int32.Parse(pedido[1]);
+
+        double[] precos =  { 4.00 , 4.50 , 5.00 , 2.00 , 1.50 };
+
+        double escolha1 = precos[a - 1];
+
+        double total = escolha1 * b ;
+
+        System.Console.WriteLine($"Total: R$ {total:0.00}");
+    }   
+}
