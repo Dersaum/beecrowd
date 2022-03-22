@@ -1,0 +1,52 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+        string numeros = Console.ReadLine();
+        string[] lista = numeros.Split(' ');
+
+        double N1 = Convert.ToDouble(lista[0]);
+        double N2 = Convert.ToDouble(lista[1]);
+        double N3 = Convert.ToDouble(lista[2]);
+        double N4 = Convert.ToDouble(lista[3]);
+
+        double media1 = ( N1 + N2 + N3 + N4 ) / 4.0;
+
+        Console.WriteLine($"Media: {media1:0.0}");
+
+        if ( media1 >= 7.0 )
+        {
+            System.Console.WriteLine("Aluno aprovado.");
+        }
+
+
+        else if ( media1 >= 5.0 )
+        {
+            if ( String.IsNullOrEmpty(lista[4]) )
+            {
+                double N5 = Convert.ToDouble(lista[4]);
+            
+                double media2 = ( media1 + N5 ) / 2.0;
+                Console.WriteLine($"Aluno em exame.\nNota do exame: {N5:0.0}");
+                
+                if (media2 >= 5.0)
+                {
+                    Console.WriteLine($"Aluno aprovado.\nMedia final: {media2:0.0}");
+                }
+
+                else
+                {
+                    Console.WriteLine($"Aluno reprovado.\nMedia final: {media2:0.0}");
+                }
+            }
+        }
+
+        else
+        {
+            Console.WriteLine("Aluno reprovado.");
+        }
+    }   
+}
