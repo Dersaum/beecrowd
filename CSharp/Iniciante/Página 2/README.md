@@ -30,7 +30,25 @@ A entrada contém quatro números de ponto flutuante correspendentes as notas do
 Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens devem ser impressas conforme a descrição do problema. Não esqueça de imprimir o enter após o final de cada linha, caso contrário obterá "Presentation Error".
 
 
-## []()
+## [1041 - Coordenadas de um Ponto](https://www.beecrowd.com.br/judge/pt/problems/view/1041)
+Leia 2 valores com uma casa decimal (x e y), que devem representar as coordenadas de um ponto em um plano. A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/86378481/159577324-c09049e5-9718-4196-9cb1-e62f06146404.png">
+</p>
+
+Se o ponto estiver na origem, escreva a mensagem “Origem”.
+
+Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
+
+### Entrada
+A entrada contem as coordenadas de um ponto.
+
+### Saída
+A saída deve apresentar o quadrante em que o ponto se encontra.
+
+
+
 ## []()
 ## []()
 ## []()
