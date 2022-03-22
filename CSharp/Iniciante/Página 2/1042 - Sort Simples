@@ -1,0 +1,36 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+        
+        string[] numeros = Console.ReadLine().Split(' ');
+        int x = Int32.Parse(numeros[0]);
+        int y = Int32.Parse(numeros[1]);
+        int z = Int32.Parse(numeros[2]);
+
+        int[] arr = { x , y , z };
+
+
+        int i, key, j;
+
+        for (i = 1; i < arr.Length; i++)
+        {
+            key = arr[i];
+            j = i - 1;
+
+            while (j >= 0 && arr[j] > key)
+            {
+                arr[j + 1] = arr[j];
+                j = j - 1;
+            }
+                arr[j + 1] = key;
+        }
+
+        Console.WriteLine($"{arr[0]}\n{arr[1]}\n{arr[2]}\n");
+
+        Console.WriteLine($"{numeros[0]}\n{numeros[1]}\n{numeros[2]}");
+    }   
+}
