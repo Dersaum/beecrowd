@@ -49,10 +49,63 @@ A saída deve apresentar o quadrante em que o ponto se encontra.
 
 
 
-## []()
-## []()
-## []()
-## []()
+## [1042 - Sort Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1042)
+Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência como foram lidos.
+
+### Entrada
+A entrada contem três números inteiros.
+
+### Saída
+Imprima a saída conforme foi especificado.
+
+
+
+## [1043 - Triângulo](https://www.beecrowd.com.br/judge/pt/problems/view/1043)
+Leia 3 valores reais (A, B e C) e verifique se eles formam ou não um triângulo. Em caso positivo, calcule o perímetro do triângulo e apresente a mensagem:
+
+
+Perimetro = XX.X
+
+
+Em caso negativo, calcule a área do trapézio que tem A e B como base e C como altura, mostrando a mensagem
+
+
+Area = XX.X
+
+### Entrada
+A entrada contém três valores reais.
+
+### Saída
+O resultado deve ser apresentado com uma casa decimal.
+
+
+## [1044 - Múltiplos](https://www.beecrowd.com.br/judge/pt/problems/view/1044)
+Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si.
+
+### Entrada
+A entrada contém valores inteiros.
+
+### Saída
+A saída deve conter uma das mensagens conforme descrito acima.
+
+
+
+## [](https://www.beecrowd.com.br/judge/pt/problems/view/1045)
+Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo uma mensagem adequada:
+- se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO
+- se A2 = B2 + C2, apresente a mensagem: TRIANGULO RETANGULO
+- se A2 > B2 + C2, apresente a mensagem: TRIANGULO OBTUSANGULO
+- se A2 < B2 + C2, apresente a mensagem: TRIANGULO ACUTANGULO
+- se os três lados forem iguais, apresente a mensagem: TRIANGULO EQUILATERO
+- se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES
+
+### Entrada
+A entrada contem três valores de ponto flutuante de dupla precisão A (0 < A) , B (0 < B) e C (0 < C).
+
+### Saída
+Imprima todas as classificações do triângulo especificado na entrada.
+
+
 ## []()
 ## []()
 ## []()
