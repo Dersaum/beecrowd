@@ -1,0 +1,74 @@
+using System;
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    {
+
+        string[] numeros = Console.ReadLine().Split(' ');
+
+        double A = Convert.ToDouble(numeros[0]);
+        double B = Convert.ToDouble(numeros[1]);
+        double C = Convert.ToDouble(numeros[2]);
+
+        double[] bubbleSort = { A , B , C };
+
+        double temp = 0;
+
+        for (int write = 0; write < bubbleSort.Length; write++)
+        {
+            for (int n = 0; n < bubbleSort.Length - 1; n++)
+            {
+                if (bubbleSort[n] > bubbleSort[n + 1])
+                {
+                    temp = bubbleSort[n + 1];
+                    bubbleSort[n + 1] = bubbleSort[n];
+                    bubbleSort[n] = temp;
+                }       
+            }
+        }
+        
+        A = bubbleSort[2];
+        B = bubbleSort[1];
+        C = bubbleSort[0];
+
+        double A2 = Math.Pow(A,2);
+        double B2 = Math.Pow(B,2);
+        double C2 = Math.Pow(C,2);
+
+        if ( A >= B + C )
+        {
+            Console.WriteLine("NAO FORMA TRIANGULO");
+        }
+
+        else
+        {
+
+            if ( A2 == B2 + C2 )
+            {
+                Console.WriteLine("TRIANGULO RETANGULO");
+            }
+
+            else if ( A2 > B2 + C2 )
+            {
+                Console.WriteLine("TRIANGULO OBTUSANGULO");
+            }
+
+            else
+            {
+                Console.WriteLine("TRIANGULO ACUTANGULO");
+            }
+        
+            if ( A == B && A == C )
+            {
+                Console.WriteLine("TRIANGULO EQUILATERO");
+            }
+
+            else if ( A == B || A == C || B == C )
+            {
+                Console.WriteLine("TRIANGULO ISOSCELES");
+            }
+        }
+    }   
+}
