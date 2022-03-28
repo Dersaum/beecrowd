@@ -1,0 +1,26 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+
+        string[] numeros = Console.ReadLine().Split(' ');
+
+        double A = Convert.ToDouble(numeros[0]);
+        double B = Convert.ToDouble(numeros[1]);
+        double total = 0;
+
+        if ( A < B )
+        {
+            total = B - A; 
+        }
+        else
+        {
+            total = (B + 24) - A;
+        }
+
+        Console.WriteLine($"O JOGO DUROU {total} HORA(S)");
+    }
+}
