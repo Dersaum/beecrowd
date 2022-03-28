@@ -1,0 +1,60 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+
+        string[] numeros = Console.ReadLine().Split(' ');
+
+        int A = Int32.Parse(numeros[0]);
+        int B = Int32.Parse(numeros[1]);
+        int C = Int32.Parse(numeros[2]);
+        int D = Int32.Parse(numeros[3]);
+        int totalH = 0;
+        int totalM = 0;
+
+        if ( A == C )
+        {
+            if ( B == D)
+            {
+                totalH = 24;
+                totalM = 0;
+            }
+            else if ( B > D )
+            {
+                totalH = 23;
+                totalM = 60 - B;
+            }
+            else
+            {
+                totalH = 0;
+                totalM = D - B;
+            }
+        }
+        else
+        {
+            if ( A < C )
+            {
+                totalH = C - A; 
+            }
+            else
+            {
+                totalH = (C + 24) - A;
+            }
+
+            if ( B <= D )
+            {
+                totalM = D - B;
+            }
+            else
+            {
+                totalM = ( D + 60 ) - B;
+                totalH = totalH - 1;
+            }
+        }
+
+        Console.WriteLine($"O JOGO DUROU {totalH} HORA(S) E {totalM} MINUTO(S)");
+    }
+}
