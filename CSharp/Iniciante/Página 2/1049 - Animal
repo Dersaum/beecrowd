@@ -1,0 +1,74 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+        
+        var A = Console.ReadLine();
+        var B = Console.ReadLine();
+        var C = Console.ReadLine();
+        var animal = " ";
+
+        if ( A == "vertebrado" )
+        {
+            if ( B == "ave" )
+            {
+                if ( C == "carnivoro" )
+                {
+                    animal = "aguia";
+                }
+
+                else if ( C == "onivoro" )
+                {
+                    animal = "pomba";
+                }
+            }
+
+            else if ( B == "mamifero" )
+            {
+                if ( C == "onivoro" )
+                {
+                    animal = "homem";
+                }
+
+                else if ( C == "herbivoro" )
+                {
+                    animal = "vaca";
+                }
+            }
+        }
+
+        else if ( A == "invertebrado" )
+        {
+            if ( B == "inseto" )
+            {
+                if ( C == "hematofago" )
+                {
+                    animal = "pulga";
+                }
+
+                else if ( C == "herbivoro" )
+                {
+                    animal = "lagarta";
+                }
+            }
+
+            else if ( B == "anelideo" )
+            {
+                if ( C == "hematofago" )
+                {
+                    animal = "sanguessuga";
+                }
+
+                else if ( C == "onivoro" )
+                {
+                    animal = "minhoca";
+                }
+            }
+        }
+
+        Console.WriteLine(animal);
+    }
+}
