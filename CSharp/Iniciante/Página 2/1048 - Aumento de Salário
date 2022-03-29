@@ -1,0 +1,44 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+        double salario = Convert.ToDouble(Console.ReadLine());
+        double novoSalario = 0; 
+        double ganho = 0;
+        int reajuste = 0;
+        int A = 15;
+        int B = 12;
+        int C = 10;
+        int D = 7;
+        int E = 4;
+
+        if ( salario <= 400 )
+        {
+            reajuste = A;
+        }
+        else if ( salario <= 800 )
+        {
+            reajuste = B;
+        }
+        else if ( salario <= 1200 )
+        {
+            reajuste = C;
+        }
+        else if ( salario <= 2000 )
+        {
+            reajuste = D;
+        }
+        else
+        {
+            reajuste = E;
+        }
+
+        ganho = salario * reajuste / 100;
+        novoSalario = salario + ganho;
+
+        Console.WriteLine($"Novo salario: {novoSalario:0.00}\nReajuste ganho: {ganho:0.00}\nEm percentual: {reajuste} %");
+    }
+}
