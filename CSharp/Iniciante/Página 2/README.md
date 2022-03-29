@@ -90,7 +90,7 @@ A saída deve conter uma das mensagens conforme descrito acima.
 
 
 
-## [](https://www.beecrowd.com.br/judge/pt/problems/view/1045)
+## [1045 - Tipos de Triângulos](https://www.beecrowd.com.br/judge/pt/problems/view/1045)
 Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo uma mensagem adequada:
 - se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO
 - se A2 = B2 + C2, apresente a mensagem: TRIANGULO RETANGULO
@@ -106,9 +106,54 @@ A entrada contem três valores de ponto flutuante de dupla precisão A (0 < A) ,
 Imprima todas as classificações do triângulo especificado na entrada.
 
 
-## []()
-## []()
-## []()
+
+## [1046 - Tempo de Jogo](https://www.beecrowd.com.br/judge/pt/problems/view/1046)
+Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+
+### Entrada
+A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.
+
+### Saída
+Apresente a duração do jogo conforme exemplo abaixo.
+
+
+
+## [1047 - Tempo de Jogo com Minutos](https://www.beecrowd.com.br/judge/pt/problems/view/1047)
+Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir calcule a duração do jogo.
+
+Obs: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.
+
+### Entrada
+Quatro números inteiros representando a hora de início e fim do jogo.
+
+### Saída
+Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)” .
+
+
+
+## [1048 - Aumento de Salário](https://www.beecrowd.com.br/judge/pt/problems/view/1048)
+A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
+
+
+Salário | Percentual de Reajuste
+:-------------------: | :-----:
+0 - 400.00 | 15%
+400.01 - 800.00 | 12%
+800.01 - 1200.00 | 10%
+1200.01 - 2000.00 | 7%
+Acima de 2000.00 | 4%
+
+
+Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.
+
+### Entrada
+A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
+
+### Saída
+Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste e o percentual de reajuste ganho, conforme exemplo abaixo.
+
+
+
 ## []()
 ## []()
 ## []()
