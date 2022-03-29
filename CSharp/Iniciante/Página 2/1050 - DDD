@@ -1,0 +1,67 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+        
+        int ddd = Int32.Parse(Console.ReadLine());
+        var A = "Brasilia";
+        var B = "Salvador";
+        var C = "Sao Paulo";
+        var D = "Rio de Janeiro";
+        var E = "Juiz de Fora";
+        var F = "Campinas";
+        var G = "Vitoria";
+        var H = "Belo Horizonte";
+        var destino = " ";
+
+        if ( ddd == 61 )
+        {
+            destino = A;
+        }
+
+        else if ( ddd == 71 )
+        {
+            destino = B;
+        }
+
+        else if ( ddd == 11 )
+        {
+            destino = C;
+        }
+
+        else if ( ddd == 21 )
+        {
+            destino = D;
+        }
+
+        else if ( ddd == 32 )
+        {
+            destino = E;
+        }
+
+        else if ( ddd == 19 )
+        {
+            destino = F;
+        }
+
+        else if ( ddd == 27 )
+        {
+            destino = G;
+        }
+
+        else if ( ddd == 31 )
+        {
+            destino = H;
+        }
+
+        else
+        {
+            destino = "DDD nao cadastrado";
+        }
+
+        Console.WriteLine(destino);
+    }
+}
