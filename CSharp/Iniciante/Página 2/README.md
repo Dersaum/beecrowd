@@ -143,7 +143,7 @@ Salário | Percentual de Reajuste
 1200.01 - 2000.00 | 7%
 Acima de 2000.00 | 4%
 
-
+ 
 Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.
 
 ### Entrada
@@ -157,7 +157,10 @@ Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste e o perce
 ## [1049 - Animal](https://www.beecrowd.com.br/judge/pt/problems/view/1049)
 Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas.
 
-![image](https://user-images.githubusercontent.com/86378481/160508519-45b6d6b4-3950-46c2-814a-21a837d3a3d0.png)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/86378481/160508519-45b6d6b4-3950-46c2-814a-21a837d3a3d0.png">
+</p>
+
 
 ### Entrada
 A entrada contém 3 palavras, uma em cada linha, necessárias para identificar o animal segundo a figura acima, com todas as letras minúsculas.
@@ -167,10 +170,54 @@ Imprima o nome do animal correspondente à entrada fornecida
 
 
 
-## []()
-## []()
-## []()
-## []()
+## [1050 - DDD](https://www.beecrowd.com.br/judge/pt/problems/view/1050)
+Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo:
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/86378481/160511076-5f066135-e972-4eae-8318-78b00d684555.png">
+</p>
+
+Se a entrada for qualquer outro DDD que não esteja presente na tabela acima, o programa deverá informar:
+DDD nao cadastrado
+
+### Entrada
+A entrada consiste de um único valor inteiro.
+
+### Saída
+Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima DDD nao cadastrado caso não existir DDD correspondente ao número digitado.
+
+
+
+## [1051 - Imposto de Renda](https://www.beecrowd.com.br/judge/pt/problems/view/1051)
+Em um país imaginário denominado Lisarb, todos os habitantes ficam felizes em pagar seus impostos, pois sabem que nele não existem políticos corruptos e os recursos arrecadados são utilizados em benefício da população, sem qualquer desvio. A moeda deste país é o Rombus, cujo símbolo é o R$.
+
+Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa de Lisarb. Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/86378481/160514521-d5f77b4f-0293-42dd-b4f3-00abed1970f0.png">
+</p>
+
+Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobre R$ 1000.00, pois a faixa de salário que fica de R$ 0.00 até R$ 2000.00 é isenta de Imposto de Renda. No exemplo fornecido (abaixo), a taxa é de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total. O valor deve ser impresso com duas casas decimais.
+
+### Entrada
+A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
+
+### Saída
+Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de Renda, com duas casas após o ponto. Se o valor de entrada for menor ou igual a 2000, deverá ser impressa a mensagem "Isento".
+
+
+
+## [1052 - Mês](https://www.beecrowd.com.br/judge/pt/problems/view/1052)
+Leia um valor inteiro entre 1 e 12, inclusive. Correspondente a este valor, deve ser apresentado como resposta o mês do ano por extenso, em inglês, com a primeira letra maiúscula.
+
+Entrada
+A entrada contém um único valor inteiro.
+
+Saída
+Imprima por extenso o nome do mês correspondente ao número existente na entrada, com a primeira letra em maiúscula.
+
+
+
 ## []()
 ## []()
 ## []()
