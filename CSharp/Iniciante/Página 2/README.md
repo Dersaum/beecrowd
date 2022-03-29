@@ -154,7 +154,19 @@ Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste e o perce
 
 
 
-## []()
+## [1049 - Animal](https://www.beecrowd.com.br/judge/pt/problems/view/1049)
+Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas.
+
+![image](https://user-images.githubusercontent.com/86378481/160508519-45b6d6b4-3950-46c2-814a-21a837d3a3d0.png)
+
+### Entrada
+A entrada contém 3 palavras, uma em cada linha, necessárias para identificar o animal segundo a figura acima, com todas as letras minúsculas.
+
+### Saída
+Imprima o nome do animal correspondente à entrada fornecida
+
+
+
 ## []()
 ## []()
 ## []()
