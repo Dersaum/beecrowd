@@ -1,0 +1,51 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+        
+        int n = Int32.Parse(Console.ReadLine());
+        var A = "January";
+        var B = "February";
+        var C = "March";
+        var D = "April";
+        var E = "May";
+        var F = "June";
+        var G = "July";
+        var H = "August";
+        var I = "September";
+        var J = "October";
+        var K = "November";
+        var L = "December";
+        var mes = " ";
+
+        if ( n == 1 )
+        mes = A;
+        else if ( n == 2 )
+        mes = B;
+        else if ( n == 3 )
+        mes = C;
+        else if ( n == 4 )
+        mes = D;
+        else if ( n == 5 )
+        mes = E;
+        else if ( n == 6 )
+        mes = F;
+        else if ( n == 7 )
+        mes = G;
+        else if ( n == 8 )
+        mes = H;
+        else if ( n == 9 )
+        mes = I;
+        else if ( n == 10 )
+        mes = J;
+        else if ( n == 11 )
+        mes = K;
+        else
+        mes = L;
+
+        Console.WriteLine(mes);
+    }
+}
