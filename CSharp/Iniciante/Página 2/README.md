@@ -292,15 +292,60 @@ O arquivo de entrada contém 5 valores inteiros quaisquer.
 Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.
 
 
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
-## []()
+
+## [1067 - Números Ímpares](https://www.beecrowd.com.br/judge/pt/problems/view/1067)
+Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.
+
+### Entrada
+O arquivo de entrada contém 1 valor inteiro qualquer.
+
+### Saída
+Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.
+
+
+
+## [1070 - Seis Números Ímpares](https://www.beecrowd.com.br/judge/pt/problems/view/1070)
+Leia um valor inteiro X. Em seguida apresente os 6 valores ímpares consecutivos a partir de X, um valor por linha, inclusive o X ser for o caso.
+
+### Entrada
+O arquivo de entrada contém 1 valor inteiro qualquer.
+
+### Saída
+A saída será uma sequência de seis números ímpares.
+
+
+
+## [1071 - Soma de Impares Consecutivos I](https://www.beecrowd.com.br/judge/pt/problems/view/1071)
+Leia 2 valores inteiros X e Y. A seguir, calcule e mostre a soma dos números impares entre eles.
+
+### Entrada
+O arquivo de entrada contém 1 valor inteiro qualquer.
+
+### Saída
+O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímpares que estão entre os valores fornecidos na entrada que deverá caber em um inteiro.
+
+
+
+## [1072 - Intervalo 2](https://www.beecrowd.com.br/judge/pt/problems/view/1072)
+Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo, mostrando essas informações.
+
+### Entrada
+A primeira linha da entrada contém um valor inteiro N (N < 10000), que indica o número de casos de teste.
+Cada caso de teste a seguir é um valor inteiro X (-10^7 < X <10^7).
+
+### Saída
+Para cada caso, imprima quantos números estão dentro (in) e quantos valores estão fora (out) do intervalo.
+
+
+
+## [1073 - Quadrado de Pares](https://www.beecrowd.com.br/judge/pt/problems/view/1073)
+Leia um valor inteiro N. Apresente o quadrado de cada um dos valores pares, de 1 até N, inclusive N, se for o caso.
+
+### Entrada
+A entrada contém um valor inteiro N (5 < N < 2000).
+
+### Saída
+Imprima o quadrado de cada um dos valores pares, de 1 até N, conforme o exemplo abaixo.
+
+Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006 ao invés de 1000000 o que ocasionará resposta errada. Neste caso, configure a precisão adequadamente para que isso não ocorra.
