@@ -1,0 +1,28 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int N = int.Parse(System.Console.ReadLine());
+        int Xin = 0;
+        int Xout = 0;
+
+        for (int i = 0; i < N; i++) 
+        {
+            int X = int.Parse(Console.ReadLine());
+            
+            if ( X > 9 && X < 21 )
+            {
+                Xin++;
+            }
+            else
+            {
+                Xout++;
+            }
+        }
+        System.Console.WriteLine($"{Xin} in\n{Xout} out");
+    }
+}
