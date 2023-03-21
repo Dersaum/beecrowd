@@ -1,0 +1,19 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int A = Int32.Parse(Console.ReadLine());
+
+        for ( int i = 1; i <= A; i++)
+        {
+            if (i % 2 != 0)
+            {
+                Console.WriteLine(i);
+            }    
+        }
+    }
+}
