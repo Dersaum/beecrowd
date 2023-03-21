@@ -1,0 +1,18 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int A;
+        for ( A = 1; A < 101; A++)
+        {
+            if ( A % 2 == 0 )
+            {
+                Console.WriteLine(A);
+            }
+        }
+    }
+}
