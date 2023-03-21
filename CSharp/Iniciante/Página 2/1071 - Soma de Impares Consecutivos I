@@ -1,0 +1,38 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int A = Int32.Parse(Console.ReadLine());
+        int B = Int32.Parse(Console.ReadLine());
+        
+        int SOMA = 0;
+
+        if ( A > B )
+        {
+
+            for ( int i = B + 1; i < A; i++)
+            {
+
+                if ( i % 2 != 0)
+                {
+
+                    SOMA = SOMA + i;
+
+                }
+            }
+            
+            System.Console.WriteLine(SOMA);
+        }
+
+        else if ( A == B )
+        {
+            System.Console.WriteLine(0);
+        }
+
+
+    }
+}
