@@ -1,0 +1,57 @@
+using System;
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int N = int.Parse(System.Console.ReadLine());
+        double SAPOS = 0;
+        double RATOS = 0;
+        double COELHOS = 0;
+
+        double TOTAL = 0;
+
+        double PORCsapos = 0;
+        double PORCratos = 0;
+        double PORCcoelhos = 0;
+
+        for (int i = 0; i < N; i++) 
+        {
+
+            string[] P1 = Console.ReadLine().Split(' ');
+            double X1 = Convert.ToDouble(P1[0]);
+            var Y1 = P1[1];
+
+            if ( Y1 == "S" )
+            {
+                SAPOS = SAPOS + X1;
+            }
+            else if ( Y1 == "R" )
+            {
+                RATOS = RATOS + X1;
+            }
+            else
+            {
+                COELHOS = COELHOS + X1;
+            }
+        }
+
+        TOTAL = SAPOS + RATOS + COELHOS;
+
+        PORCsapos = Math.Round(SAPOS / TOTAL * 100, 2);
+        PORCratos = Math.Round(RATOS / TOTAL * 100, 2);
+        PORCcoelhos = Math.Round(COELHOS / TOTAL * 100, 2);
+
+        System.Console.WriteLine($"Total: {TOTAL} cobaias");
+
+        System.Console.WriteLine($"Total de coelhos: {COELHOS}");
+        System.Console.WriteLine($"Total de ratos: {RATOS}");
+        System.Console.WriteLine($"Total de sapos: {SAPOS}");
+
+        System.Console.WriteLine($"Percentual de coelhos: {PORCcoelhos.ToString("N2")} %");
+        System.Console.WriteLine($"Percentual de ratos: {PORCratos.ToString("N2")} %");
+        System.Console.WriteLine($"Percentual de sapos: {PORCsapos.ToString("N2")} %");
+    }
+}
