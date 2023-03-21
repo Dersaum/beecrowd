@@ -1,0 +1,39 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int A = Int32.Parse(Console.ReadLine());
+        int B = 0;
+
+            if ( A % 2 == 0)
+            {
+                for ( int i = 1; i <= 11; i++)
+                {
+                    if (i % 2 != 0)
+                    {
+                        B = A + i;
+                        Console.WriteLine(B);
+                    }
+                }
+            }
+
+            else
+            {
+                System.Console.WriteLine(A);
+
+                for ( int i = 1; i < 12; i++)
+                {
+                    if ( i % 2 == 0)
+                    {
+                        
+                        B = A + i;
+                        System.Console.WriteLine(B);
+                    }
+                }
+            }
+    }
+}
