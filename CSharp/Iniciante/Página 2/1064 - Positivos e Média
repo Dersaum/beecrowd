@@ -1,0 +1,29 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int j = 0;
+        double SOMA = 0;
+
+        for ( int i = 1; i < 7; i++)
+        {
+            
+        double A = Convert.ToDouble(Console.ReadLine());
+        
+            if ( A > 0 )
+            {
+                SOMA = SOMA + A;
+                j++;
+            }
+        }
+
+        double MEDIA = SOMA / j;
+
+        Console.WriteLine($"{j} valores positivos");
+        System.Console.WriteLine($"{MEDIA:0.0}");
+    }
+}
