@@ -1,0 +1,25 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int j = 0;
+
+        for ( int i = 1; i < 6; i++)
+        {
+            
+        double A = Convert.ToDouble(Console.ReadLine());
+        
+            if ( A % 2 == 0 )
+            {
+                j++;
+            }
+        }
+
+
+        Console.WriteLine($"{j} valores pares");
+    }
+}
