@@ -1,0 +1,39 @@
+using System; 
+
+class URI
+{
+
+    static void Main(string[] args)
+    { 
+
+        int N = int.Parse(System.Console.ReadLine());
+
+        for (int i = 0; i < N; i++) 
+        {
+            int X = int.Parse(Console.ReadLine());
+            var PARouIMPAR = "NULL";
+
+            if ( X % 2 == 0 )
+            {
+                PARouIMPAR = "EVEN";
+            }
+            else
+            {
+                PARouIMPAR = "ODD";
+            }
+
+            if ( X == 0 )
+            {
+                System.Console.WriteLine("NULL");
+            }
+            else if ( X > 0 )
+            {
+                System.Console.WriteLine($"{PARouIMPAR} POSITIVE");
+            }
+            else
+            {
+                System.Console.WriteLine($"{PARouIMPAR} NEGATIVE");
+            }
+        }
+    }
+}
