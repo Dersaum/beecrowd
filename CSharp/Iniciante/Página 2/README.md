@@ -218,6 +218,27 @@ Imprima por extenso o nome do mês correspondente ao número existente na entrad
 
 
 
+## [1059 - Números Pares](https://www.beecrowd.com.br/judge/pt/problems/view/1059)
+Faça um programa que mostre os números pares entre 1 e 100, inclusive.
+
+### Entrada
+Neste problema extremamente simples de repetição não há entrada.
+
+### Saída
+Imprima todos os números pares entre 1 e 100, inclusive se for o caso, um em cada linha.
+
+
+
+## [1060 - Números Positivos](https://www.beecrowd.com.br/judge/pt/problems/view/1060)
+Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
+
+### Entrada
+Seis valores, negativos e/ou positivos.
+
+### Saída
+Imprima uma mensagem dizendo quantos valores positivos foram lidos.
+
+
 ## []()
 ## []()
 ## []()
