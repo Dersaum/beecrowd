@@ -270,6 +270,17 @@ A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuant
 O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
 
 
+
+## [1065 - Pares entre Cinco Números](https://www.beecrowd.com.br/judge/pt/problems/view/1065)
+Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
+
+### Entrada
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+### Saída
+Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
+
+
 ## []()
 ## []()
 ## []()
