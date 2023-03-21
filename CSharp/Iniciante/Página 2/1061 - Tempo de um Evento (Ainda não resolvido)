@@ -1,0 +1,79 @@
+using System; 
+
+class URI 
+{
+
+    static void Main(string[] args) 
+    { 
+
+
+        string[] DiaComeco = Console.ReadLine().Split(' ');
+        int Dia1 = Int32.Parse(DiaComeco[1]);
+
+        string[] Horario1 = Console.ReadLine().Split(':');
+
+        int Hora1 = Int32.Parse(Horario1[0]);
+        int Minuto1 = Int32.Parse(Horario1[1]);
+        int Segundo1 = Int32.Parse(Horario1[2]);
+        
+
+
+        string[] DiaTermino = Console.ReadLine().Split(' ');
+        int Dia2 = Int32.Parse(DiaTermino[1]);
+
+        string[] Horario2 = Console.ReadLine().Split(':');
+
+        int Hora2 = Int32.Parse(Horario2[0]);
+        int Minuto2 = Int32.Parse(Horario2[1]);
+        int Segundo2 = Int32.Parse(Horario2[2]);
+        
+
+
+        int DiaTotal = Dia2 - Dia1;
+        int HoraTotal = Hora2 - Hora1;
+        int MinutoTotal = Minuto2 - Minuto1;
+        int SegundoTotal = Segundo2 - Segundo1;
+
+        if ( Hora2 < Hora1 )
+        {
+            DiaTotal = DiaTotal - 1;
+            HoraTotal = HoraTotal + 24;
+        }
+
+        if ( Minuto2 < Minuto1 )
+        {
+            HoraTotal = HoraTotal - 1;
+            MinutoTotal = MinutoTotal + 60;
+        }
+
+        if ( Segundo2 < Segundo1 )
+        {
+            MinutoTotal = MinutoTotal - 60;
+            SegundoTotal = SegundoTotal + 60;
+        }
+
+        if ( SegundoTotal > 60 )
+        {
+            SegundoTotal -= 60;
+            MinutoTotal += 1;
+        }
+
+        if ( MinutoTotal > 60 )
+        {
+            MinutoTotal -= 60;
+            HoraTotal += 1;
+        }
+
+        if ( HoraTotal > 24 )
+        {
+            HoraTotal -= 24;
+            DiaTotal += 1;
+        }
+        
+        System.Console.WriteLine($"{DiaTotal} dia (s)");
+        System.Console.WriteLine($"{HoraTotal} hora (s)");
+        System.Console.WriteLine($"{MinutoTotal} minuto (s)");
+        System.Console.WriteLine($"{SegundoTotal} segundo (s)");
+        
+    }
+}
