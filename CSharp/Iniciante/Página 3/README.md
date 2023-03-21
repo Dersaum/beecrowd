@@ -1,5 +1,5 @@
 # Iniciante
-## [Desafios 1038 até 1073](https://www.beecrowd.com.br/judge/pt/problems/index/1?page=2)
+## [Desafios 1074 até 1144](https://www.beecrowd.com.br/judge/pt/problems/index/1?page=3)
 
 
 ## [1074 - Par ou Ímpar](https://www.beecrowd.com.br/judge/pt/problems/view/1074)
